@@ -1,0 +1,14 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,p,input{
+  margin:0;
+  padding:0;
+  list-style:none;/*清除列表小圆点*/
+  font-family:Arial,"苹方"；
+}
+a{
+  color:#fff;
+  text-decoration:none;
+}
+/*图片被a标签包裹，IE8以下会默认边框，要去边框 */
+img{
+   border:none;
+}
